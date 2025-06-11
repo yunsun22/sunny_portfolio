@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f6f6f6;
+    line-height: 1.6;
+}
+  
+.project-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 40px;
+    background-color: #ffb47a;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+  
+.header-left{
+    flex: 1 1 55%;
+    margin-left: 30px;
+}
+  
+.header-left h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.header-left h2{
+    color: #333;
+}
+  
+.header-left p{
+    font-size: 18px;
+    color: #333;
+}
+
+.header-left .tx{
+    font-size: 14px;
+}
+  
+.header-right{
+    flex: 1 1 40%;
+    font-size: 14px;
+    color: #333;
+}
+  
+.overview h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+.overview p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+  
+.project-info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.project-info li{
+    margin-bottom: 6px;
+}
+
+.video{
+    width: 800px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.content-block span{
+    color: #ff6f00;
+}
+
+.content-block h2{
+    margin-top: 50px;
+}
+
+.persona-grid{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+  
+.persona-card{
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.persona-card h3{
+    color: #e78032;
+}
+  
+.video-wrapper{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  
+.thumbnail{
+    position: relative;
+    cursor: pointer;
+}
+  
+.thumbnail img{
+    width: 100%;
+    border-radius: 12px;
+}
+  
+.play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.shortform-wrapper{
+    max-width: 360px; /* 숏폼은 좁게 */
+    margin: 40px auto;
+}
+  
+.thumbnail-vertical{
+    position: relative;
+    cursor: pointer;
+}
+  
+.thumbnail-vertical img{
+    width: 100%;
+    border-radius: 12px;
+}
+  
+.play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.project-header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 40px;
+    background-color: #b74e63;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+  
+.header-left2{
+    flex: 1 1 55%;
+    margin-left: 30px;
+}
+  
+.header-left2 h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.header-left2 h2{
+    color: #fff;
+}
+  
+.header-left2 p{
+    font-size: 18px;
+    color: #fff;
+}
+  
+.header-right2{
+    flex: 1 1 40%;
+    font-size: 14px;
+    color: #fff;
+}
+  
+.overview2 h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+  
+.overview2 p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+  
+.project-info2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.project-info2 li{
+    margin-bottom: 6px;
+}
+
+.container2{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.content-block2 span{
+    color: #ff3f65;
+}
+
+.concept{
+    margin-top: 50px;
+}
+
+.concept-list span{
+    color: #ff3f65;
+}
+
+.video-wrapper2{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  
+.thumbnail2{
+    position: relative;
+    cursor: pointer;
+}
+  
+.thumbnail2 img{
+    width: 100%;
+    border-radius: 12px;
+}
+  
+.play-button2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.video{
+    width: 800px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
